@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>insect game</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="screen">
+          <h1>Catch The Insect</h1>
+          <button class="btn btn-dark" id="start-btn">Play Game</button>
+        </div>
+        <div class="screen">
+          <h1>What is your "favorite" insect?</h1>
+          <ul class="insects-list">
+            <li>
+
+            <li>
+              <button class="btn btn-dark choose-insect-btn">
+                <p>Mosquito</p>
+                <img
+                  src="image/mosquito.gif"
+                  alt="mosquito"
+                />
+              </button>
+            </li>
+            <li>
+              <button class="btn btn-dark choose-insect-btn">
+                <p>Spider</p>
+                <img
+                  src="image/spider.png"
+                  alt="spider"
+                />
+              </button>
+            </li>
+
+          </ul>
+        </div>
+        <div class="screen game-container" id="game-container">
+          <h3 id="time" class="time">Time: 00:00</h3>
+          <h3 id="score" class="score">Score: 0</h3>
+          <h5 id="message" class="message">
+            You win!!
+          </h5>
+        </div>
+       <script type="text/javascript" src="app.js">
+
+       </script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+    <!-- <i class="fa-solid fa-spider-black-widow"></i>
+    <i class="fa-solid fa-mosquito"></i> -->
